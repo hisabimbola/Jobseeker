@@ -28,7 +28,7 @@ body {
 HEADER
 ****************************************/
 #top-section {
-	background-image: url("../img/blur.jpg");
+	background-image: url("../img/blur.JPG");
 	background-repeat: no-repeat;
 	width: 100%;
 	z-index: 2;
@@ -200,7 +200,7 @@ THIRD SECTION
 ****************************************/
 
 #third-section {
-	background-image: url("img/blur2.jpg");
+	background-image: url("../img/blur2.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	width: 100%;
