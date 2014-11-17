@@ -52,6 +52,7 @@ img[src="img/logo.png"] {
 #top-nav ul {
 	list-style-type: none;
 }
+
 #top-nav a {
 	float: right;
 	text-decoration: none;
@@ -117,10 +118,12 @@ img[src="img/logo.png"] {
 	display: block;
 	margin: 0% auto 2%;
 }
+
 #bottom-nav li {
 	display: inline;
 	font-size: 1.3vw;
 }
+
 #bottom-nav li:nth-child(even) {
 	margin: 0% 2%;
 	font-size: 3vw;
@@ -244,7 +247,7 @@ FOURTH SECTION
 	height: 100%;
 	text-align: center;
 	border-bottom: solid #218A0A;
-	border-bottom-width: 4%;
+	border-bottom-width: 0.4vw;
 }
 
 #fourth-section p {
@@ -256,6 +259,7 @@ FOURTH SECTION
 #fourth-section li {
 	display: inline;
 }
+
 #fourth-section img {
 	width: 8%;
 	border: 1px solid rgba(0, 0, 0, 0.1);
@@ -282,4 +286,12 @@ footer a {
 
 footer a:first-of-type {
 	margin-left: 6%;
+}
+
+/****************************************
+MEDIA SCREENS
+****************************************/
+
+@media screen and (max-width: 400px) {
+	
 }
