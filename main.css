@@ -142,6 +142,7 @@ SECOND SECTION
 	padding-bottom: 7%;
 	padding-left: 13%;
 	box-sizing: border-box;
+	margin: 0% auto;
 }
 
 #second-section h2 {
@@ -154,7 +155,7 @@ SECOND SECTION
 
 #second-section-container div {
 	display: inline-block;
-	width: 15%;
+	width: 19%;
 }
 
 #second-section-container div img {
@@ -189,7 +190,7 @@ SECOND SECTION
 }
 #second-section-container p {
 	text-align: center;
-	font-size: 70%;
+	font-size: 120%;
 }
 
 /****************************************
@@ -238,7 +239,7 @@ FOURTH SECTION
 	margin-top: 4%;
 	width: 100%;
 	text-align: center;
-	border-bottom: 1px solid;
+	border-bottom: 1px solid #218A0A;
 }
 
 #fourth-section p {
@@ -257,8 +258,23 @@ FOURTH SECTION
 	margin: 2% 2% 5% 2%;
 }
 
+/****************************************
+FOTTER
+****************************************/
 
+footer {
+	background-color: #333333;
+	border: 1px solid;
+	padding: 3% 0% 2% 0%;
+}
 
+footer a {
+	color: #B5B5B5;
+	font-size: 60%;
+	text-decoration: none;
+	padding-right: 0.5%
+}
 
-
-
+footer a:first-of-type {
+	margin-left: 6%;
+}
