@@ -140,7 +140,8 @@ SECOND SECTION
 #second-section-container {
 	width: 100%;
 	padding-bottom: 7%;
-	padding-left: 13%
+	padding-left: 13%;
+	box-sizing: border-box;
 }
 
 #second-section h2 {
@@ -188,8 +189,55 @@ SECOND SECTION
 }
 #second-section-container p {
 	text-align: center;
-	font-size: 70%
+	font-size: 70%;
 }
+
+/****************************************
+THIRD SECTION
+****************************************/
+
+#third-section {
+	background-image: url("img/blur2.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	text-align: center;
+	padding-top: 6%;
+}
+
+#third-section h2 {
+	font-size: 160%;
+	font-weight: 600;
+	padding-bottom: 3%;
+}
+
+#third-section p {
+	line-height: 200%;
+	font-size: 80%;
+}
+
+#third-section p:last-of-type {
+	margin-bottom: 5%;
+}
+
+#third-section button {
+	background-color: #208B0A;
+	border: none;
+	color: #fff;
+	border-radius: 4%;
+	font-size: 90%;
+	padding: 1.5% 4%;
+	margin-bottom: 6%;
+}
+
+
+
+
+
+
+
+
+
 
 
 
