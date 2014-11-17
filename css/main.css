@@ -28,7 +28,7 @@ body {
 HEADER
 ****************************************/
 #top-section {
-	background-image: url("img/blur.jpg");
+	background-image: url("../img/blur.jpg");
 	background-repeat: no-repeat;
 	width: 100%;
 	z-index: 2;
@@ -241,8 +241,10 @@ FOURTH SECTION
 #fourth-section {
 	margin-top: 4%;
 	width: 100%;
+	height: 100%;
 	text-align: center;
-	border-bottom: 5px solid #218A0A;
+	border-bottom: solid #218A0A;
+	border-bottom-width: 4%;
 }
 
 #fourth-section p {
