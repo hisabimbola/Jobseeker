@@ -198,7 +198,6 @@ SECOND SECTION
 	font-size: 1.4vw;
 }
 
-
 /****************************************
 THIRD SECTION
 ****************************************/
@@ -237,6 +236,7 @@ THIRD SECTION
 	padding: 1.2% 4%;
 	margin-bottom: 6%;
 }
+
 
 /****************************************
 FOURTH SECTION
@@ -293,8 +293,7 @@ footer a:first-of-type {
 MEDIA SCREENS
 ****************************************/
 
-@media screen and (max-width: 700px) {
-	
+@media screen and (max-width: 768px) and (min-width: 500px) {
 	
 	#second-section h2 {
 		margin: 6% 0% 10% 0%;
@@ -320,29 +319,92 @@ MEDIA SCREENS
 	}
 
 	#third-section h2 {
-		font-size: 3.9vw;
-	}
+	font-size: 3.9vw;
+}
 
-	#third-section p {
-		font-size: 2.3vw;
-	}
+#third-section p {
+	font-size: 2.3vw;
+}
 
 
-	#third-section button {
-		font-size: 3.5vw;
-	}
+#third-section button {
+	font-size: 3.5vw;
+}
 	
 	#fourth-section h2 {
-		font-size: 4.5vw;
-	}
+	font-size: 4.5vw;
+}
 	
 	#fourth-section img {
 		width: 20%;
 		margin: 2% 9% 7% 2%;
-	}
+}
 
 	
 	footer a {
 		font-size: 2.0vw;
 	}
+}
+
+@media screen and (max-width: 499px) {
+	
+	#second-section h2 {
+		margin-bottom: 12%;
+		font-size: 8.4vw;
+	}
+
+
+#second-section-container div {
+		width: 79%;
+	}
+
+#second-section-container div img {
+		margin-bottom: 2%;
+	}
+
+#middle-pic1 {
+		width: 30%;
+		margin-left: 36%;
+	}
+
+#middle-pic2 {
+	width: 23%;
+	margin-left: 37%;
+}
+
+#middle-pic3 {
+	width: 35%;
+	margin-left: 30%;
+}
+
+#middle-pic4 {
+	width: 40%;
+	margin-left: 32%;
+}
+
+#second-section-container > img {
+	-ms-transform: rotate(90deg); /* IE 9 */
+  -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
+  transform: rotate(90deg);
+	display: block;
+	width: 14.5%;
+	margin-bottom: 5.9%;
+	margin-left: 30%
+}
+#second-section-container p {
+	font-size: 5.4vw;
+}
+	#third-section h2 {
+	font-size: 4.9vw;
+}
+
+#third-section p {
+	font-size: 3.3vw;
+}
+
+#third-section button {
+	font-size: 3.5vw;
+}
+
+
 }
