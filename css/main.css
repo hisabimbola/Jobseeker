@@ -280,7 +280,7 @@ footer {
 
 footer a {
 	color: #B5B5B5;
-	font-size: 0.9vw;
+	font-size: 1.0vw;
 	text-decoration: none;
 	padding-right: 0.5%
 }
@@ -319,16 +319,30 @@ MEDIA SCREENS
 		font-size: 2.8vw;
 	}
 
-	/****************************************
-	FOURTH SECTION
-	****************************************/
+	#third-section h2 {
+		font-size: 3.9vw;
+	}
+
+	#third-section p {
+		font-size: 2.3vw;
+	}
+
+
+	#third-section button {
+		font-size: 3.5vw;
+	}
 	
 	#fourth-section h2 {
 		font-size: 4.5vw;
 	}
 	
 	#fourth-section img {
-	width: 20%;
-	margin: 2% 9% 7% 2%;
+		width: 20%;
+		margin: 2% 9% 7% 2%;
+	}
+
+	
+	footer a {
+		font-size: 2.0vw;
 	}
 }
