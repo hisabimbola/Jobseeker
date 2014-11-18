@@ -388,66 +388,64 @@ img[src="img/logo.png"] {
 @media screen and (max-width: 499px) {
 	
 	/****************************************
-HEADER
-****************************************/
-#top-section {
-	background-image: url("../img/blur-mobile.JPG");
-}
+	HEADER
+	****************************************/
+	#top-section {
+		background-image: url("../img/blur-mobile.JPG");
+	}
 
-#top-nav {
-	background-color: rgba(218,222,223, 0.7);
-}
+	#top-nav {
+		background-color: rgba(218,222,223, 0.7);
+	}
 
-#top-nav a {
-	color: #000;
-	font-size: 2.8vw;
-}
+	#top-nav a {
+		color: #000;
+		font-size: 2.8vw;
+	}
 
-img[src="img/logo.png"] {
-	width: 15%;
-	position: absolute;
-	top: 3.7%;
-	left: 2%;
-}
+	img[src="img/logo.png"] {
+		width: 15%;
+		position: absolute;
+		top: 3.7%;
+		left: 2%;
+	}
 
-#top-info {
-	float: left;
-	text-align: center;
-	margin: 5% 2% 0% 21%;
-}
+	#top-info {
+		float: left;
+		text-align: center;
+		margin: 5% 2% 0% 21%;
+	}
 
-#top-info h2 {
-	font-size: 6.5vw;
-	padding-bottom: 6%; 
-}
+	#top-info h2 {
+		font-size: 6.5vw;
+		padding-bottom: 6%; 
+	}
 
-#top-info p {
-	font-size: 3.6vw;
-	padding-bottom: 2%;
-	color: #0E0E0E;
-}
+	#top-info p {
+		font-size: 3.6vw;
+		padding-bottom: 2%;
+		color: #0E0E0E;
+	}
 
-#top-info a {
-	font-size: 2.8vw;
-	margin-top: 9%;
-	margin-bottom: 35%;
-}
+	#top-info a {
+		font-size: 2.8vw;
+		`margin-top: 9%;
+		margin-bottom: 35%;
+	}
 
-.model-pic {
-	display: none;
-}
-
-
-#bottom-nav h3 {
-	font-size: 3.6vw;
-	margin-bottom: 2%;
-}
-
-#bottom-nav li {
-	font-size: 2.3vw;
-}
+	.model-pic {
+		display: none;
+	}
 
 
+	#bottom-nav h3 {
+		font-size: 3.6vw;
+		margin-bottom: 2%;
+	}
+
+	#bottom-nav li {
+		font-size: 2.3vw;
+	}
 	
 	#second-section h2 {
 		margin-bottom: 12%;

@@ -1,0 +1,138 @@
+@media screen and (max-width: 499px) {
+	
+	/****************************************
+	HEADER
+	****************************************/
+	#top-section {
+		background-image: url("../img/blur-mobile.JPG");
+	}
+
+	#top-nav {
+		background-color: rgba(218,222,223, 0.7);
+	}
+
+	#top-nav a {
+		color: #000;
+		font-size: 2.8vw;
+	}
+
+	img[src="img/logo.png"] {
+		width: 15%;
+		position: absolute;
+		top: 3.7%;
+		left: 2%;
+	}
+
+	#top-info {
+		float: left;
+		text-align: center;
+		margin: 5% 2% 0% 21%;
+	}
+
+	#top-info h2 {
+		font-size: 6.5vw;
+		padding-bottom: 6%; 
+	}
+
+	#top-info p {
+		font-size: 3.6vw;
+		padding-bottom: 2%;
+		color: #0E0E0E;
+	}
+
+	#top-info a {
+		font-size: 2.8vw;
+		`margin-top: 9%;
+		margin-bottom: 35%;
+	}
+
+	.model-pic {
+		display: none;
+	}
+
+
+	#bottom-nav h3 {
+		font-size: 3.6vw;
+		margin-bottom: 2%;
+	}
+
+	#bottom-nav li {
+		font-size: 2.3vw;
+	}
+	
+	#second-section h2 {
+		margin-bottom: 12%;
+		font-size: 8.4vw;
+	}
+
+
+	#second-section-container div {
+		width: 79%;
+	}
+
+	#second-section-container div img {
+		margin-bottom: 2%;
+	}
+
+	#middle-pic1 {
+		width: 30%;
+		margin-left: 36%;
+	}
+
+	#middle-pic2 {
+		width: 23%;
+		margin-left: 37%;
+	}
+
+	#middle-pic3 {
+		width: 35%;
+		margin-left: 30%;
+	}
+
+	#middle-pic4 {
+		width: 40%;
+		margin-left: 32%;
+	}
+
+	#second-section-container > img {
+		-ms-transform: rotate(90deg); /* IE 9 */
+	  	-webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
+	  	transform: rotate(90deg);
+		display: block;
+		width: 14.5%;
+		margin-bottom: 5.9%;
+		margin-left: 30%
+	}
+
+	#second-section-container p {
+		font-size: 5.4vw;
+	}
+
+	#third-section h2 {
+		font-size: 4.9vw;
+	}
+
+	#third-section p {
+		font-size: 3.3vw;
+	}
+
+	#third-section button {
+		font-size: 3.5vw;
+	}
+
+	#fourth-section h2 {
+		font-size: 5.4vw;
+	}
+
+	#fourth-section li {
+		display: block;
+	}
+
+	#fourth-section img {
+		width: 25%;
+	}
+	
+	footer a {
+		font-size: 2.3vw;
+	}
+}
