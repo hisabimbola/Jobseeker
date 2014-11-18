@@ -251,7 +251,7 @@ FOURTH SECTION
 	border-bottom-width: 0.4vw;
 }
 
-#fourth-section p {
+#fourth-section h2 {
 	font-size: 2.4vw;
 	color: #919191;
 	margin-bottom: 4%
@@ -295,26 +295,40 @@ MEDIA SCREENS
 
 @media screen and (max-width: 700px) {
 	
-		#second-section h2 {
-			margin: 6% 0% 10% 0%;
-			font-size: 4.9vw;
+	
+	#second-section h2 {
+		margin: 6% 0% 10% 0%;
+		font-size: 4.9vw;
 	}
 	#second-section-container div {
-	width: 39%;
+		width: 39%;
 	}
 	
 	#second-section-container div:nth-child(-n+3) {
-	margin-bottom: 10%;
+		margin-bottom: 10%;
 	}
 	#second-section-container > img {
-	width: 9.5%;
-	margin-bottom: 10.9%;
+		width: 9.5%;
+		margin-bottom: 10.9%;
 	}
 	#second-section-container > img:nth-child(4) {
-	display: none;
+		display: none;
 	}
 	#second-section-container p {
-	line-height: 160%;
-	font-size: 2.8vw;
+		line-height: 160%;
+		font-size: 2.8vw;
+	}
+
+	/****************************************
+	FOURTH SECTION
+	****************************************/
+	
+	#fourth-section h2 {
+		font-size: 4.5vw;
+	}
+	
+	#fourth-section img {
+	width: 20%;
+	margin: 2% 9% 7% 2%;
 	}
 }
