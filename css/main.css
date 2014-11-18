@@ -349,6 +349,68 @@ MEDIA SCREENS
 
 @media screen and (max-width: 499px) {
 	
+	/****************************************
+HEADER
+****************************************/
+#top-section {
+	background-image: url("../img/blur-mobile.JPG");
+}
+
+#top-nav {
+	background-color: rgba(218,222,223, 0.1);
+}
+
+#top-nav a {
+	color: #fff;
+	font-size: 2.8vw;
+}
+
+img[src="img/logo.png"] {
+	width: 15%;
+	position: absolute;
+	top: 3.7%;
+	left: 2%;
+}
+
+#top-info {
+	float: left;
+	text-align: center;
+	margin: 5% 2% 0% 21%;
+}
+
+#top-info h2 {
+	font-size: 6.5vw;
+	padding-bottom: 6%; 
+}
+
+#top-info p {
+	font-size: 3.6vw;
+	padding-bottom: 2%;
+	color: #0E0E0E;
+}
+
+#top-info a {
+	font-size: 2.8vw;
+	margin-top: 9%;
+	margin-bottom: 35%;
+}
+
+.model-pic {
+	display: none;
+}
+
+
+#bottom-nav h3 {
+	font-size: 3.6vw;
+	margin-bottom: 2%;
+}
+
+#bottom-nav li {
+	font-size: 2.3vw;
+}
+
+
+	
 	#second-section h2 {
 		margin-bottom: 12%;
 		font-size: 8.4vw;
@@ -420,5 +482,8 @@ MEDIA SCREENS
 	#fourth-section img {
 		width: 25%;
 	}
-
+	
+	footer a {
+		font-size: 2.3vw;
+	}
 }
