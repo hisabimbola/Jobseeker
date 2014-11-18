@@ -198,6 +198,7 @@ SECOND SECTION
 	font-size: 1.4vw;
 }
 
+
 /****************************************
 THIRD SECTION
 ****************************************/
@@ -288,3 +289,32 @@ footer a:first-of-type {
 	margin-left: 6%;
 }
 
+/****************************************
+MEDIA SCREENS
+****************************************/
+
+@media screen and (max-width: 700px) {
+	
+		#second-section h2 {
+			margin: 6% 0% 10% 0%;
+			font-size: 4.9vw;
+	}
+	#second-section-container div {
+	width: 39%;
+	}
+	
+	#second-section-container div:nth-child(-n+3) {
+	margin-bottom: 10%;
+	}
+	#second-section-container > img {
+	width: 9.5%;
+	margin-bottom: 10.9%;
+	}
+	#second-section-container > img:nth-child(4) {
+	display: none;
+	}
+	#second-section-container p {
+	line-height: 160%;
+	font-size: 2.8vw;
+	}
+}
